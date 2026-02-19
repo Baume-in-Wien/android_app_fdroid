@@ -1,0 +1,27 @@
+{
+  "version": 8,
+  "sources": {
+    "satellite": {
+      "type": "raster",
+      "tiles": [
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+      ],
+      "tileSize": 256,
+      "attribution": "© ESRI, DigitalGlobe, GeoEye, i-cubed, USDA FSA, USGS, AEX, Getmapping, Aerogrid, IGN, IGP, swisstopo"
+    },
+    "openfreemap": {
+      "type": "vector",
+      "tiles": [
+        "https://tiles.openfreemap.org/planet/{z}/{x}/{y}.pbf"
+      ],
+      "attribution": "© OpenStreetMap contributors"
+    }
+  },
+  "layers": [
+    {
+      "id": "satellite-layer",
+      "type": "raster",
+      "source": "satellite"
+    }
+  ]
+}

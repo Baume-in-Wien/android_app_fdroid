@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bäume in Wien</string>
+    
+    <!-- Navigation -->
+    <string name="nav_map">Karte</string>
+    
+    
+    <string name="nav_explorer">Entdecken</string>
+    <string name="nav_achievements">Erfolge</string>
+    <string name="nav_favorites">Favoriten</string>
+    <string name="nav_more">Mehr</string>
+    <string name="nav_ar">AR</string>
+    <string name="nav_info">Info</string>
+    
+    <!-- Map Screen -->
+    <string name="map_search_hint">Baum suchen…</string>
+    <string name="map_loading">Baumkataster wird geladen…</string>
+    <string name="map_trees_loaded">%1$d von %2$d Bäumen</string>
+    <string name="map_percent_downloaded">%1$d%% heruntergeladen</string>
+    <string name="map_fetching_data">Daten werden von data.wien.gv.at abgerufen</string>
+    <string name="map_satellite_view">Satellit</string>
+    <string name="map_location">Standort</string>
+    <string name="map_downloading_first_time">Erstmaliger Download aller Bäume</string>
+    <string name="map_use_online_mode">Online-Modus verwenden</string>
+    <string name="map_download_all">Alle herunterladen</string>
+    <string name="map_search_results">Suchergebnisse</string>
+    <string name="map_no_results">Keine Bäume gefunden</string>
+    <string name="search_placeholder">Bäume in Wien suchen…</string>
+    <string name="search_hint">Suche</string>
+    <string name="search_results_count">%1$d Ergebnisse</string>
+    <string name="search_no_results_for">Keine Ergebnisse für \"%1$s\"</string>
+    <string name="search_min_chars">Gib mindestens 2 Zeichen ein</string>
+    <string name="search_popular_species">Beliebte Baumarten</string>
+    <string name="search_popular_places">Beliebte Orte</string>
+    <string name="search_no_street">Keine Straße</string>
+    
+    <!-- Tree Details -->
+    <string name="tree_species">Baumart</string>
+    <string name="tree_scientific_name">Wissenschaftlicher Name</string>
+    <string name="tree_height">Höhe</string>
+    <string name="tree_height_value">%1$.1f m</string>
+    <string name="tree_trunk_circumference">Stammumfang</string>
+    <string name="tree_trunk_circumference_value">%1$d cm</string>
+    <string name="tree_crown_diameter">Kronendurchmesser</string>
+    <string name="tree_crown_diameter_value">%1$.1f m</string>
+    <string name="tree_plant_year">Pflanzjahr</string>
+    <string name="tree_age">Alter</string>
+    <string name="tree_age_value">%1$d Jahre</string>
+    <string name="tree_district">Bezirk</string>
+    <string name="tree_address">Adresse</string>
+    <string name="tree_unknown">Unbekannt</string>
+    <string name="tree_add_favorite">Zu Favoriten hinzufügen</string>
+    <string name="tree_remove_favorite">Aus Favoriten entfernen</string>
+    <string name="tree_number">Baumnummer</string>
+    <string name="tree_id">Baum-ID</string>
+    <string name="tree_area">Gebiet</string>
+    <string name="tree_street">Straße</string>
+    <string name="tree_details">Baumdetails</string>
+    <string name="tree_notes">Notizen</string>
+    <string name="tree_add_note">Notiz hinzufügen</string>
+    <string name="tree_share">Teilen</string>
+    <string name="tree_navigate">Navigation starten</string>
+    <string name="tree_take_photo">Foto aufnehmen</string>
+    
+    <!-- Achievements -->
+    <string name="achievements_title">Erfolge</string>
+    <string name="achievements_progress">Dein Fortschritt</string>
+    <string name="achievements_species_discovered">%1$d Arten entdeckt</string>
+    <string name="achievements_unlocked">%1$d / %2$d freigeschaltet</string>
+    <string name="achievements_all">Alle</string>
+    <string name="achievements_locked">Gesperrt</string>
+    <string name="achievements_category_species">Arten</string>
+    <string name="achievements_category_explorer">Entdecker</string>
+    <string name="achievements_category_rally">Rallye</string>
+    <string name="achievements_category_social">Social</string>
+    
+    <!-- Achievement Titles -->
+    <string name="achievement_first_tree">Erster Baum</string>
+    <string name="achievement_first_tree_desc">Entdecke deinen ersten Baum</string>
+    <string name="achievement_species_10">Artenkenner:in</string>
+    <string name="achievement_species_10_desc">Entdecke 10 verschiedene Arten</string>
+    <string name="achievement_species_25">Botaniker:in</string>
+    <string name="achievement_species_25_desc">Entdecke 25 verschiedene Arten</string>
+    <string name="achievement_species_50">Dendrologe:in</string>
+    <string name="achievement_species_50_desc">Entdecke 50 verschiedene Arten</string>
+    <string name="achievement_linde_lover">Lindenliebhaber:in</string>
+    <string name="achievement_linde_lover_desc">Entdecke 10 Linden</string>
+    <string name="achievement_kastanie_king">Kastanienkönig:in</string>
+    <string name="achievement_kastanie_king_desc">Entdecke 10 Kastanien</string>
+    <string name="achievement_ahorn_ace">Ahorn-Ass</string>
+    <string name="achievement_ahorn_ace_desc">Entdecke 10 Ahornbäume</string>
+    <string name="achievement_eiche_expert">Eichen-Expert:in</string>
+    <string name="achievement_eiche_expert_desc">Entdecke 10 Eichen</string>
+    <string name="achievement_first_mission">Erste Mission</string>
+    <string name="achievement_first_mission_desc">Schließe deine erste Mission ab</string>
+    <string name="achievement_explorer_5">Entdecker:in</string>
+    <string name="achievement_explorer_5_desc">Schließe 5 Explorer-Sessions ab</string>
+    <string name="achievement_explorer_25">Wanderer:in</string>
+    <string name="achievement_explorer_25_desc">Schließe 25 Explorer-Sessions ab</string>
+    <string name="achievement_district_all">Wien-Kenner:in</string>
+    <string name="achievement_district_all_desc">Besuche Bäume in allen 23 Bezirken</string>
+    <string name="achievement_walker_5km">5km Wanderer:in</string>
+    <string name="achievement_walker_5km_desc">Lege 5km zu Fuß zurück</string>
+    <string name="achievement_walker_50km">Marathoni</string>
+    <string name="achievement_walker_50km_desc">Lege 50km zu Fuß zurück</string>
+    <string name="achievement_first_rally">Erste Rallye</string>
+    <string name="achievement_first_rally_desc">Nimm an deiner ersten Rallye teil</string>
+    <string name="achievement_rally_winner">Rallye-Sieger:in</string>
+    <string name="achievement_rally_winner_desc">Gewinne eine Rallye</string>
+    <string name="achievement_rally_host">Rallye-Leiter:in</string>
+    <string name="achievement_rally_host_desc">Erstelle deine erste Rallye</string>
+    <string name="achievement_rally_10">Rallye-Veteran:in</string>
+    <string name="achievement_rally_10_desc">Nimm an 10 Rallyes teil</string>
+    <string name="achievement_first_favorite">Erster Favorit</string>
+    <string name="achievement_first_favorite_desc">Füge deinen ersten Favoriten hinzu</string>
+    <string name="achievement_favorites_10">Sammler:in</string>
+    <string name="achievement_favorites_10_desc">Speichere 10 Lieblingsbäume</string>
+    <string name="achievement_photo_10">Fotograf:in</string>
+    <string name="achievement_photo_10_desc">Mache 10 Baum-Fotos</string>
+    
+    <!-- Achievement Dialog -->
+    <string name="achievement_unlocked">ERFOLG FREIGESCHALTET!</string>
+    <string name="achievement_new_species">NEUE ART ENTDECKT!</string>
+    <string name="achievement_added_to_collection">wurde deiner Sammlung hinzugefügt</string>
+    <string name="achievement_collect">Sammeln!</string>
+    <string name="achievement_awesome">Super!</string>
+    
+    <!-- Explorer Mode -->
+    <string name="explorer_title">Entdecken</string>
+    <string name="explorer_nearby_trees">Bäume in der Nähe</string>
+    <string name="explorer_no_trees_nearby">Keine Bäume in der Nähe gefunden</string>
+    <string name="explorer_distance">%1$d m entfernt</string>
+    <string name="explorer_go_here">Hierhin</string>
+    <string name="explorer_collect">Sammeln</string>
+    <string name="explorer_collected">Gesammelt!</string>
+    <string name="explorer_session_complete">Session abgeschlossen!</string>
+    <string name="explorer_tree_found">Baum gefunden!</string>
+    <string name="explorer_tree_nearby">Baum in der Nähe!</string>
+    <string name="explorer_start">Entdecken starten</string>
+    <string name="explorer_stop">Beenden</string>
+    <string name="explorer_radius">Radius</string>
+    <string name="explorer_trees_in_radius">%1$d Bäume im Umkreis</string>
+    <string name="explorer_walk_to_tree">Zum Baum gehen</string>
+    <string name="explorer_scanning">Suche Bäume…</string>
+    
+    <!-- Rally -->
+    <string name="rally_title">Rallye</string>
+    <string name="rally_create">Rallye erstellen</string>
+    <string name="rally_join">Rallye beitreten</string>
+    <string name="rally_code">Code</string>
+    <string name="rally_enter_code">Code eingeben</string>
+    <string name="rally_your_name">Dein Name</string>
+    <string name="rally_start">Starten</string>
+    <string name="rally_leave">Verlassen</string>
+    <string name="rally_leave_confirm">Rallye verlassen?</string>
+    <string name="rally_leave_confirm_text">Bist du sicher, dass du die Rallye verlassen möchtest? Dein Fortschritt wird gespeichert.</string>
+    <string name="rally_participants">Teilnehmer</string>
+    <string name="rally_trees_found">%1$d / %2$d Bäume gefunden</string>
+    <string name="rally_completed">Geschafft!</string>
+    <string name="rally_default_name">Baum-Rallye</string>
+    <string name="rally_tree_collected">Baum gesammelt!</string>
+    <string name="rally_take_photo">Baum fotografieren</string>
+    <string name="rally_points">%1$d Punkte</string>
+    <string name="rally_ranking">Rangliste</string>
+    <string name="rally_your_score">Deine Punkte</string>
+    <string name="rally_solo_discovery">Solo Entdeckung</string>
+    <string name="rally_teacher_mode">Lehrer-Modus</string>
+    <string name="rally_student_mode">Schüler-Modus</string>
+    <string name="rally_share_code">Code teilen</string>
+    <string name="rally_invalid_code">Ungültiger Code</string>
+    <string name="rally_not_found">Rallye nicht gefunden</string>
+    <string name="rally_teacher_dashboard">Lehrer:innen-Dashboard</string>
+    <string name="rally_refresh">Aktualisieren</string>
+    <string name="rally_map">Karte</string>
+    <string name="rally_trees">Bäume</string>
+    <string name="rally_meters_away">%1$d Meter entfernt</string>
+    <string name="rally_your_leaf_photo">Dein Blatt-Foto:</string>
+    <string name="rally_photograph_leaf">Blatt fotografieren</string>
+    <string name="rally_photograph">Fotografieren</string>
+    <string name="rally_retake">Neu aufnehmen</string>
+    <string name="rally_confirm">Bestätigen</string>
+    <string name="rally_open_camera">Kamera öffnen</string>
+    <string name="rally_missions">Missionen</string>
+    <string name="rally_photo_made">Foto machen</string>
+    <string name="rally_later">Später</string>
+    <string name="rally_you_are_at">Du bist bei:</string>
+    <string name="rally_take_photo_to_complete">Mache ein Foto um die Mission abzuschließen!</string>
+    
+    
+    <!-- Favorites -->
+    <string name="favorites_title">Favoriten</string>
+    <string name="favorites_empty">Noch keine Favoriten</string>
+    <string name="favorites_add_hint">Tippe auf das Herz bei einem Baum, um ihn zu speichern</string>
+    <string name="favorites_count">%1$d Favoriten</string>
+    <string name="favorites_remove">Entfernen</string>
+    <string name="favorites_added">Zu Favoriten hinzugefügt</string>
+    <string name="favorites_removed">Aus Favoriten entfernt</string>
+    
+    <!-- Statistics -->
+    <string name="statistics_title">STATISTIK</string>
+    <string name="statistics_subtitle">Wiener Baumkataster</string>
+    <string name="statistics_tab_species">Baumarten</string>
+    <string name="statistics_tab_districts">Bezirke</string>
+    <string name="statistics_total_trees">Bäume gesamt</string>
+    <string name="statistics_total_species">Verschiedene Arten</string>
+    <string name="statistics_explore_species">Baumarten &amp; Bezirke erkunden</string>
+    <string name="statistics_top_species">Häufigste Arten</string>
+    <string name="statistics_top_districts">Meiste Bäume</string>
+    
+    <!-- Info Screen -->
+    <string name="info_title">INFO</string>
+    <string name="info_subtitle">Über die App</string>
+    <string name="info_version">Version</string>
+    <string name="info_data_source">Datenquelle</string>
+    <string name="info_data_source_value">Stadt Wien Open Data</string>
+    <string name="info_developer">Entwickler</string>
+    <string name="info_contact">Kontakt</string>
+    <string name="info_privacy">Datenschutz</string>
+    <string name="info_privacy_details">Keine Konten • Keine Analytics • Keine Werbung • Alle Daten bleiben lokal</string>
+    <string name="info_licenses">Lizenzen</string>
+    <string name="info_rate_app">App bewerten</string>
+    <string name="info_share_app">App teilen</string>
+    <string name="info_disclaimer_title">HINWEIS</string>
+    <string name="info_disclaimer_text">Diese App ist NICHT offiziell von der Stadt Wien.\nDaten: data.wien.gv.at (CC BY 4.0)</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_favorites_only">Nur Favoriten anzeigen</string>
+    <string name="settings_3d_buildings">3D-Gebäude</string>
+    <string name="settings_check_updates">Nach Updates suchen</string>
+    <string name="settings_clear_cache">Cache leeren</string>
+    <string name="settings_clear_cache_desc">Alle Daten neu laden</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_data_source">Datenquelle: Stadt Wien Open Data</string>
+    <string name="settings_offline_mode">Offline-Modus</string>
+    <string name="settings_notifications">Benachrichtigungen</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_dark_mode">Dunkler Modus</string>
+    <string name="settings_about">Über die App</string>
+    <string name="settings_auto_download">Auto-Download</string>
+    <string name="settings_auto_download_desc">Bäume automatisch laden</string>
+    <string name="settings_wifi_only">Nur WLAN</string>
+    <string name="settings_wifi_only_desc">Downloads nur über WLAN</string>
+    <string name="settings_data">Daten</string>
+    
+    <!-- AR Mode -->
+    <string name="ar_title">Augmented Reality</string>
+    <string name="ar_view">AR-Ansicht</string>
+    <string name="ar_point_camera">Richte die Kamera auf Bäume</string>
+    <string name="ar_no_trees_found">Keine Bäume erkannt</string>
+    <string name="ar_scanning">Scanne Umgebung…</string>
+    <string name="ar_tree_identified">Baum erkannt</string>
+    <string name="ar_take_photo">Foto aufnehmen</string>
+    <string name="ar_beta">BETA</string>
+    <string name="ar_close">Schließen</string>
+    <string name="ar_mode_beta">AR Modus (Beta)</string>
+    <string name="ar_trees_nearby">%1$d Bäume in der Nähe</string>
+    <string name="ar_visible">%1$d sichtbar</string>
+    <string name="ar_safety_title">⚠️ Sicherheitshinweis</string>
+    <string name="ar_safety_text">Bitte achte immer auf deine Umgebung und den Straßenverkehr! Bleib auf dem Gehweg und schaue regelmäßig vom Bildschirm auf. Deine Sicherheit geht vor.</string>
+    <string name="ar_safety_children">Kinder sollten diese Funktion nur unter Aufsicht von Erwachsenen nutzen.</string>
+    <string name="ar_understood">Verstanden</string>
+    <string name="ar_cancel">Abbrechen</string>
+    <string name="ar_permission_required">%1$s-Berechtigung erforderlich</string>
+    <string name="ar_permission_text">Für die AR-Ansicht wird die %1$s-Berechtigung benötigt, um Bäume in deiner Umgebung anzuzeigen.</string>
+    <string name="ar_grant_permission">Berechtigung erteilen</string>
+    <string name="ar_camera">Kamera</string>
+    <string name="ar_location">Standort</string>
+    <string name="ar_description">Zeige Bäume in deiner Umgebung als 3D-Kugeln durch die Kamera an. Tippe auf eine Kugel für Details.</string>
+    <string name="ar_safety_warning">Achte auf deine Umgebung! Kinder nur unter Aufsicht.</string>
+    <string name="ar_start">AR STARTEN</string>
+    <string name="ar_initializing">AR-Kamera wird initialisiert…</string>
+    <string name="ar_move_slowly">Bitte Gerät langsam bewegen</string>
+    <string name="ar_instructions">Halte dein Gerät hoch und schau dich um, um Bäume zu entdecken.</string>
+    <string name="ar_planted">Gepflanzt %1$d</string>
+    
+    <!-- GPS Accuracy -->
+    <string name="gps_accuracy">GPS-Genauigkeit</string>
+    <string name="gps_accuracy_meters">±%1$d m</string>
+    <string name="gps_accuracy_excellent">Ausgezeichnet</string>
+    <string name="gps_accuracy_good">Gut</string>
+    <string name="gps_accuracy_moderate">Mittel</string>
+    <string name="gps_accuracy_poor">Schlecht</string>
+    <string name="gps_waiting">Warte auf GPS…</string>
+    <string name="gps_tips_button">Tipps anzeigen</string>
+    <string name="gps_tips_title">GPS verbessern</string>
+    <string name="gps_tips_content">• Gehe sicher, dass du unter freiem Himmel bist\n• Halte Abstand zu hohen Gebäuden\n• Aktiviere WLAN und Bluetooth für bessere Ortung</string>
+    <string name="missions_empty_title">Keine Missionen</string>
+    <string name="missions_empty_desc">Gehe spazieren um Bäume zu finden!</string>
+    <string name="photo_of">Foto von %1$s</string>
+    
+
+    <!-- Rally Creation -->
+    <string name="rally_create_title">Neue Rallye erstellen</string>
+    <string name="rally_create_success">Rallye erfolgreich erstellt!</string>
+    <string name="rally_your_code">DEIN CODE</string>
+    <string name="rally_share_instruction">Teile diesen Code mit den Schüler/innen.\nSie können damit der Rallye beitreten.</string>
+    <string name="rally_done">Fertig</string>
+    <string name="rally_name_label">Name der Rallye (z.B. Botanik-Ausflug)</string>
+    <string name="rally_creator_label">Dein Name (Lehrperson)</string>
+    <string name="rally_radius_label">Fangradius (Meter): %1$dm</string>
+    <string name="rally_select_trees">Bäume auswählen (aus Favoriten):</string>
+    <string name="rally_no_favorites_hint">Markiere zuerst ein paar Bäume auf der Karte als Favoriten, um sie für die Rallye auszuwählen.</string>
+    <string name="rally_unknown_street">Unbekannte Straße</string>
+    <string name="rally_create_button">Rallye erstellen &amp; Code generieren</string>
+    
+    
+    <!-- Search (zusätzlich) -->
+    <string name="search_by_name">Nach Name suchen</string>
+    <string name="search_by_species">Nach Baumart suchen</string>
+    <string name="search_by_district">Nach Bezirk suchen</string>
+    <string name="search_no_results">Keine Ergebnisse gefunden</string>
+    <string name="search_recent">Letzte Suchen</string>
+    <string name="search_popular">Beliebte Suchen</string>
+    <string name="search_clear_history">Verlauf löschen</string>
+    
+    <!-- Permissions -->
+    <string name="permission_location_title">Standort-Berechtigung</string>
+    <string name="permission_location_message">Für den Explorer-Modus wird dein Standort benötigt</string>
+    <string name="permission_camera_title">Kamera-Berechtigung</string>
+    <string name="permission_camera_message">Für AR und Fotos wird die Kamera benötigt</string>
+    <string name="permission_grant">Erlauben</string>
+    <string name="permission_deny">Ablehnen</string>
+    
+    <!-- Errors -->
+    <string name="error_loading">Fehler beim Laden</string>
+    <string name="error_network">Netzwerkfehler</string>
+    <string name="error_no_internet">Keine Internetverbindung</string>
+    <string name="error_try_again">Erneut versuchen</string>
+    <string name="error_unknown">Unbekannter Fehler</string>
+    <string name="error_location">Standort nicht verfügbar</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="close">Schließen</string>
+    <string name="back">Zurück</string>
+    <string name="loading">Laden…</string>
+    <string name="error">Fehler</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="search">Suchen</string>
+    <string name="no_results">Keine Ergebnisse</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="share">Teilen</string>
+    <string name="copy">Kopieren</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="done">Fertig</string>
+    <string name="next">Weiter</string>
+    <string name="skip">Überspringen</string>
+    <string name="continue_action">Fortfahren</string>
+    <string name="meters">%1$d m</string>
+    <string name="kilometers">%1$.1f km</string>
+    <string name="years">%1$d Jahre</string>
+    <string name="today">Heute</string>
+    <string name="yesterday">Gestern</string>
+
+    <!-- Community / Add Tree -->
+    <string name="community_add_tree">Baum melden</string>
+    <string name="community_tree_badge">Community-Baum</string>
+    <string name="community_tree_added_by">von %1$s</string>
+    <string name="add_tree_title">Baum hinzufügen</string>
+    <string name="add_tree_gps_title">Standort bestimmen</string>
+    <string name="add_tree_gps_instruction">Halte dein Handy nahe am Baum und warte auf eine genaue GPS-Position.</string>
+    <string name="add_tree_use_location">Diesen Standort verwenden</string>
+    <string name="add_tree_place_on_map">Auf Satellitenbild platzieren</string>
+    <string name="add_tree_confirm_location">Standort bestätigen</string>
+    <string name="add_tree_species_title">Baumart wählen</string>
+    <string name="add_tree_species_search_hint">Suche nach deutschem oder wissenschaftlichem Namen</string>
+    <string name="add_tree_details_title">Optionale Details</string>
+    <string name="add_tree_details_subtitle">Diese Angaben sind freiwillig, helfen aber bei der Dokumentation.</string>
+    <string name="add_tree_height_label">Geschätzte Höhe</string>
+    <string name="add_tree_trunk_label">Stammumfang</string>
+    <string name="add_tree_summary_title">Zusammenfassung</string>
+    <string name="add_tree_submit">Baum hinzufügen</string>
+    <string name="add_tree_success">Baum erfolgreich hinzugefügt!</string>
+    <string name="add_tree_success_subtitle">Der Baum ist jetzt auf der Community-Karte sichtbar.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Willkommen!</string>
+    <string name="onboarding_welcome_desc">Entdecke über 250.000 Bäume in Wien. Finde Baumarten, erkunde deine Nachbarschaft und werde Teil der Community.</string>
+    <string name="onboarding_map_title">Karte erkunden</string>
+    <string name="onboarding_map_desc">Durchsuche alle Wiener Bäume auf einer interaktiven Karte. Mit Satellitenansicht, 3D-Gebäuden und Baumarten-Suche.</string>
+    <string name="onboarding_discover_title">Entdecken &amp; Sammeln</string>
+    <string name="onboarding_discover_desc">Geh raus und entdecke Bäume in deiner Nähe. Sammle Erfolge, speichere Favoriten und werde zur Baum-Expert:in.</string>
+    <string name="onboarding_community_title">Community &amp; Rallyes</string>
+    <string name="onboarding_community_desc">Melde neue Bäume, nimm an Rallyes teil und erkunde Wien gemeinsam. Perfekt für Schulausflüge und Naturerkundung.</string>
+    <string name="onboarding_start">Los geht\'s!</string>
+
+    <!-- Auth / Login -->
+    <string name="login_title">Bäume in Wien</string>
+    <string name="login_subtitle">Melde dich an, um Bäume zur\nCommunity-Karte hinzuzufügen</string>
+    <string name="login_google">Mit Google anmelden</string>
+    <string name="login_github">Mit GitHub anmelden</string>
+    <string name="login_email_label">E-Mail</string>
+    <string name="login_password_label">Passwort</string>
+    <string name="login_sign_in">Anmelden</string>
+    <string name="login_sign_up">Registrieren</string>
+    <string name="login_toggle_sign_up">Noch kein Konto? Registrieren</string>
+    <string name="login_toggle_sign_in">Bereits ein Konto? Anmelden</string>
+    <string name="login_error_empty">Bitte E-Mail und Passwort eingeben</string>
+    <string name="login_error_password_short">Passwort muss mindestens 6 Zeichen haben</string>
+</resources>

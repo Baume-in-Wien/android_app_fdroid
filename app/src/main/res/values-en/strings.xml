@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trees in Vienna</string>
+    
+    <!-- Navigation -->
+    <string name="nav_map">Map</string>
+    
+    
+    <string name="nav_explorer">Explore</string>
+    <string name="nav_achievements">Achievements</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_more">More</string>
+    <string name="nav_ar">AR</string>
+    <string name="nav_info">Info</string>
+    
+    <!-- Map Screen -->
+    <string name="map_search_hint">Search trees…</string>
+    <string name="map_loading">Loading tree cadastre…</string>
+    <string name="map_trees_loaded">%1$d of %2$d trees</string>
+    <string name="map_percent_downloaded">%1$d%% downloaded</string>
+    <string name="map_fetching_data">Fetching data from data.wien.gv.at</string>
+    <string name="map_satellite_view">Satellite</string>
+    <string name="map_location">Location</string>
+    <string name="map_downloading_first_time">First-time download of all trees</string>
+    <string name="map_use_online_mode">Use online mode</string>
+    <string name="map_download_all">Download all</string>
+    <string name="map_search_results">Search results</string>
+    <string name="map_no_results">No trees found</string>
+    <string name="search_placeholder">Search trees in Vienna…</string>
+    <string name="search_hint">Search</string>
+    <string name="search_results_count">%1$d results</string>
+    <string name="search_no_results_for">No results for \"%1$s\"</string>
+    <string name="search_min_chars">Enter at least 2 characters</string>
+    <string name="search_popular_species">Popular species</string>
+    <string name="search_popular_places">Popular places</string>
+    <string name="search_no_street">No street</string>
+    
+    <!-- Tree Details -->
+    <string name="tree_species">Species</string>
+    <string name="tree_scientific_name">Scientific Name</string>
+    <string name="tree_height">Height</string>
+    <string name="tree_height_value">%1$.1f m</string>
+    <string name="tree_trunk_circumference">Trunk Circumference</string>
+    <string name="tree_trunk_circumference_value">%1$d cm</string>
+    <string name="tree_crown_diameter">Crown Diameter</string>
+    <string name="tree_crown_diameter_value">%1$.1f m</string>
+    <string name="tree_plant_year">Year Planted</string>
+    <string name="tree_age">Age</string>
+    <string name="tree_age_value">%1$d years</string>
+    <string name="tree_district">District</string>
+    <string name="tree_address">Address</string>
+    <string name="tree_unknown">Unknown</string>
+    <string name="tree_add_favorite">Add to Favorites</string>
+    <string name="tree_remove_favorite">Remove from Favorites</string>
+    <string name="tree_number">Tree Number</string>
+    <string name="tree_id">Tree ID</string>
+    <string name="tree_area">Area</string>
+    <string name="tree_street">Street</string>
+    <string name="tree_details">Tree Details</string>
+    <string name="tree_notes">Notes</string>
+    <string name="tree_add_note">Add note</string>
+    <string name="tree_share">Share</string>
+    <string name="tree_navigate">Navigate</string>
+    <string name="tree_take_photo">Take photo</string>
+    
+    <!-- Achievements -->
+    <string name="achievements_title">Achievements</string>
+    <string name="achievements_progress">Your Progress</string>
+    <string name="achievements_species_discovered">%1$d species discovered</string>
+    <string name="achievements_unlocked">%1$d / %2$d unlocked</string>
+    <string name="achievements_all">All</string>
+    <string name="achievements_locked">Locked</string>
+    <string name="achievements_category_species">Species</string>
+    <string name="achievements_category_explorer">Explorer</string>
+    <string name="achievements_category_rally">Rally</string>
+    <string name="achievements_category_social">Social</string>
+    
+    <!-- Achievement Titles -->
+    <string name="achievement_first_tree">First Tree</string>
+    <string name="achievement_first_tree_desc">Discover your first tree</string>
+    <string name="achievement_species_10">Species Expert</string>
+    <string name="achievement_species_10_desc">Discover 10 different species</string>
+    <string name="achievement_species_25">Botanist</string>
+    <string name="achievement_species_25_desc">Discover 25 different species</string>
+    <string name="achievement_species_50">Dendrologist</string>
+    <string name="achievement_species_50_desc">Discover 50 different species</string>
+    <string name="achievement_linde_lover">Linden Lover</string>
+    <string name="achievement_linde_lover_desc">Discover 10 linden trees</string>
+    <string name="achievement_kastanie_king">Chestnut Champion</string>
+    <string name="achievement_kastanie_king_desc">Discover 10 chestnut trees</string>
+    <string name="achievement_ahorn_ace">Maple Master</string>
+    <string name="achievement_ahorn_ace_desc">Discover 10 maple trees</string>
+    <string name="achievement_eiche_expert">Oak Expert</string>
+    <string name="achievement_eiche_expert_desc">Discover 10 oak trees</string>
+    <string name="achievement_first_mission">First Mission</string>
+    <string name="achievement_first_mission_desc">Complete your first mission</string>
+    <string name="achievement_explorer_5">Explorer</string>
+    <string name="achievement_explorer_5_desc">Complete 5 explorer sessions</string>
+    <string name="achievement_explorer_25">Wanderer</string>
+    <string name="achievement_explorer_25_desc">Complete 25 explorer sessions</string>
+    <string name="achievement_district_all">Vienna Expert</string>
+    <string name="achievement_district_all_desc">Visit trees in all 23 districts</string>
+    <string name="achievement_walker_5km">5km Walker</string>
+    <string name="achievement_walker_5km_desc">Walk 5 kilometers</string>
+    <string name="achievement_walker_50km">Marathon Runner</string>
+    <string name="achievement_walker_50km_desc">Walk 50 kilometers</string>
+    <string name="achievement_first_rally">First Rally</string>
+    <string name="achievement_first_rally_desc">Participate in your first rally</string>
+    <string name="achievement_rally_winner">Rally Winner</string>
+    <string name="achievement_rally_winner_desc">Win a rally</string>
+    <string name="achievement_rally_host">Rally Host</string>
+    <string name="achievement_rally_host_desc">Create your first rally</string>
+    <string name="achievement_rally_10">Rally Veteran</string>
+    <string name="achievement_rally_10_desc">Participate in 10 rallies</string>
+    <string name="achievement_first_favorite">First Favorite</string>
+    <string name="achievement_first_favorite_desc">Add your first favorite</string>
+    <string name="achievement_favorites_10">Collector</string>
+    <string name="achievement_favorites_10_desc">Save 10 favorite trees</string>
+    <string name="achievement_photo_10">Photographer</string>
+    <string name="achievement_photo_10_desc">Take 10 tree photos</string>
+    
+    <!-- Achievement Dialog -->
+    <string name="achievement_unlocked">ACHIEVEMENT UNLOCKED!</string>
+    <string name="achievement_new_species">NEW SPECIES DISCOVERED!</string>
+    <string name="achievement_added_to_collection">was added to your collection</string>
+    <string name="achievement_collect">Collect!</string>
+    <string name="achievement_awesome">Awesome!</string>
+    
+    <!-- Explorer Mode -->
+    <string name="explorer_title">Explore</string>
+    <string name="explorer_nearby_trees">Nearby Trees</string>
+    <string name="explorer_no_trees_nearby">No trees found nearby</string>
+    <string name="explorer_distance">%1$d m away</string>
+    <string name="explorer_go_here">Go here</string>
+    <string name="explorer_collect">Collect</string>
+    <string name="explorer_collected">Collected!</string>
+    <string name="explorer_session_complete">Session complete!</string>
+    <string name="explorer_tree_found">Tree found!</string>
+    <string name="explorer_tree_nearby">Tree nearby!</string>
+    <string name="explorer_start">Start exploring</string>
+    <string name="explorer_stop">Stop</string>
+    <string name="explorer_radius">Radius</string>
+    <string name="explorer_trees_in_radius">%1$d trees in range</string>
+    <string name="explorer_walk_to_tree">Walk to tree</string>
+    <string name="explorer_scanning">Scanning for trees…</string>
+    
+    <!-- Rally -->
+    <string name="rally_title">Rally</string>
+    <string name="rally_create">Create Rally</string>
+    <string name="rally_join">Join Rally</string>
+    <string name="rally_code">Code</string>
+    <string name="rally_enter_code">Enter code</string>
+    <string name="rally_your_name">Your name</string>
+    <string name="rally_start">Start</string>
+    <string name="rally_leave">Leave</string>
+    <string name="rally_leave_confirm">Leave rally?</string>
+    <string name="rally_leave_confirm_text">Are you sure you want to leave the rally? Your progress will be saved.</string>
+    <string name="rally_participants">Participants</string>
+    <string name="rally_trees_found">%1$d / %2$d trees found</string>
+    <string name="rally_completed">Completed!</string>
+    <string name="rally_default_name">Tree Rally</string>
+    <string name="rally_tree_collected">Tree collected!</string>
+    <string name="rally_take_photo">Photograph tree</string>
+    <string name="rally_points">%1$d points</string>
+    <string name="rally_ranking">Ranking</string>
+    <string name="rally_your_score">Your score</string>
+    <string name="rally_solo_discovery">Solo Discovery</string>
+    <string name="rally_teacher_mode">Teacher Mode</string>
+    <string name="rally_student_mode">Student Mode</string>
+    <string name="rally_share_code">Share code</string>
+    <string name="rally_invalid_code">Invalid code</string>
+    <string name="rally_not_found">Rally not found</string>
+    <string name="rally_teacher_dashboard">Teacher Dashboard</string>
+    <string name="rally_refresh">Refresh</string>
+    <string name="rally_map">Map</string>
+    <string name="rally_trees">Trees</string>
+    <string name="rally_meters_away">%1$d meters away</string>
+    <string name="rally_your_leaf_photo">Your leaf photo:</string>
+    <string name="rally_photograph_leaf">Photograph leaf</string>
+    <string name="rally_photograph">Photograph</string>
+    <string name="rally_retake">Retake</string>
+    <string name="rally_confirm">Confirm</string>
+    <string name="rally_open_camera">Open camera</string>
+    <string name="rally_missions">Missions</string>
+    <string name="rally_photo_made">Take photo</string>
+    <string name="rally_later">Later</string>
+    <string name="rally_you_are_at">You are at:</string>
+    <string name="rally_take_photo_to_complete">Take a photo to complete the mission!</string>
+    
+    
+    <!-- Favorites -->
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty">No favorites yet</string>
+    <string name="favorites_add_hint">Tap the heart on a tree to save it</string>
+    <string name="favorites_count">%1$d favorites</string>
+    <string name="favorites_remove">Remove</string>
+    <string name="favorites_added">Added to favorites</string>
+    <string name="favorites_removed">Removed from favorites</string>
+    
+    <!-- Statistics -->
+    <string name="statistics_title">STATISTICS</string>
+    <string name="statistics_subtitle">Vienna Tree Cadastre</string>
+    <string name="statistics_tab_species">Species</string>
+    <string name="statistics_tab_districts">Districts</string>
+    <string name="statistics_total_trees">Total trees</string>
+    <string name="statistics_total_species">Different species</string>
+    <string name="statistics_explore_species">Explore species &amp; districts</string>
+    <string name="statistics_top_species">Most common species</string>
+    <string name="statistics_top_districts">Most trees</string>
+    
+    <!-- Info Screen -->
+    <string name="info_title">INFO</string>
+    <string name="info_subtitle">About the app</string>
+    <string name="info_version">Version</string>
+    <string name="info_data_source">Data source</string>
+    <string name="info_data_source_value">City of Vienna Open Data</string>
+    <string name="info_developer">Developer</string>
+    <string name="info_contact">Contact</string>
+    <string name="info_privacy">Privacy</string>
+    <string name="info_privacy_details">No accounts • No analytics • No ads • All data stays local</string>
+    <string name="info_licenses">Licenses</string>
+    <string name="info_rate_app">Rate app</string>
+    <string name="info_share_app">Share app</string>
+    <string name="info_disclaimer_title">NOTICE</string>
+    <string name="info_disclaimer_text">This app is NOT official from the City of Vienna.\nData: data.wien.gv.at (CC BY 4.0)</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_favorites_only">Show favorites only</string>
+    <string name="settings_3d_buildings">3D Buildings</string>
+    <string name="settings_check_updates">Check for updates</string>
+    <string name="settings_clear_cache">Clear cache</string>
+    <string name="settings_clear_cache_desc">Reload all data</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_data_source">Data source: City of Vienna Open Data</string>
+    <string name="settings_offline_mode">Offline mode</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_about">About</string>
+    <string name="settings_auto_download">Auto-Download</string>
+    <string name="settings_auto_download_desc">Load trees automatically</string>
+    <string name="settings_wifi_only">WiFi only</string>
+    <string name="settings_wifi_only_desc">Downloads only via WiFi</string>
+    <string name="settings_data">Data</string>
+    
+    <!-- AR Mode -->
+    <string name="ar_title">Augmented Reality</string>
+    <string name="ar_view">AR View</string>
+    <string name="ar_point_camera">Point camera at trees</string>
+    <string name="ar_no_trees_found">No trees detected</string>
+    <string name="ar_scanning">Scanning environment…</string>
+    <string name="ar_tree_identified">Tree identified</string>
+    <string name="ar_take_photo">Take photo</string>
+    <string name="ar_beta">BETA</string>
+    <string name="ar_close">Close</string>
+    <string name="ar_mode_beta">AR Mode (Beta)</string>
+    <string name="ar_trees_nearby">%1$d trees nearby</string>
+    <string name="ar_visible">%1$d visible</string>
+    <string name="ar_safety_title">⚠️ Safety Notice</string>
+    <string name="ar_safety_text">Please always pay attention to your surroundings and traffic! Stay on the sidewalk and regularly look up from your screen. Your safety comes first.</string>
+    <string name="ar_safety_children">Children should only use this feature under adult supervision.</string>
+    <string name="ar_understood">Understood</string>
+    <string name="ar_cancel">Cancel</string>
+    <string name="ar_permission_required">%1$s permission required</string>
+    <string name="ar_permission_text">AR view requires %1$s permission to display trees in your area.</string>
+    <string name="ar_grant_permission">Grant permission</string>
+    <string name="ar_camera">Camera</string>
+    <string name="ar_location">Location</string>
+    <string name="ar_description">View trees in your surroundings as 3D spheres through the camera. Tap a sphere for details.</string>
+    <string name="ar_safety_warning">Watch your surroundings! Children only under supervision.</string>
+    <string name="ar_start">START AR</string>
+    <string name="ar_initializing">Initializing AR camera…</string>
+    <string name="ar_move_slowly">Please move device slowly</string>
+    <string name="ar_instructions">Hold your device up and look around to discover trees.</string>
+    <string name="ar_planted">Planted %1$d</string>
+    
+    <!-- GPS Accuracy -->
+    <string name="gps_accuracy">GPS Accuracy</string>
+    <string name="gps_accuracy_meters">±%1$d m</string>
+    <string name="gps_accuracy_excellent">Excellent</string>
+    <string name="gps_accuracy_good">Good</string>
+    <string name="gps_accuracy_moderate">Moderate</string>
+    <string name="gps_accuracy_poor">Poor</string>
+    <string name="gps_waiting">Waiting for GPS…</string>
+    <string name="gps_tips_button">Show tips</string>
+    <string name="gps_tips_title">Improve GPS</string>
+    <string name="gps_tips_content">• Make sure you are outdoors\n• Keep distance from tall buildings\n• Enable WiFi and Bluetooth for better location</string>
+    <string name="missions_empty_title">No missions</string>
+    <string name="missions_empty_desc">Walk around to find trees!</string>
+    <string name="photo_of">Photo of %1$s</string>
+    
+
+    <!-- Rally Creation -->
+    <string name="rally_create_title">Create New Rally</string>
+    <string name="rally_create_success">Rally created successfully!</string>
+    <string name="rally_your_code">YOUR CODE</string>
+    <string name="rally_share_instruction">Share this code with students.\nThey can use it to join the rally.</string>
+    <string name="rally_done">Done</string>
+    <string name="rally_name_label">Rally Name (e.g. Botany Trip)</string>
+    <string name="rally_creator_label">Your Name (Teacher)</string>
+    <string name="rally_radius_label">Capture Radius (Meters): %1$dm</string>
+    <string name="rally_select_trees">Select Trees (from Favorites):</string>
+    <string name="rally_no_favorites_hint">Mark some trees as favorites on the map first to select them for the rally.</string>
+    <string name="rally_unknown_street">Unknown Street</string>
+    <string name="rally_create_button">Create Rally &amp; Generate Code</string>
+    
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome!</string>
+    <string name="onboarding_welcome_desc">Discover over 250,000 trees in Vienna. Find species, explore your neighborhood and become part of the community.</string>
+    <string name="onboarding_map_title">Explore the Map</string>
+    <string name="onboarding_map_desc">Browse all Vienna trees on an interactive map. With satellite view, 3D buildings and species search.</string>
+    <string name="onboarding_discover_title">Discover &amp; Collect</string>
+    <string name="onboarding_discover_desc">Go outside and discover trees near you. Collect achievements, save favorites and become a tree expert.</string>
+    <string name="onboarding_community_title">Community &amp; Rallies</string>
+    <string name="onboarding_community_desc">Report new trees, join rallies and explore Vienna together. Perfect for school trips and nature exploration.</string>
+    <string name="onboarding_start">Let\'s go!</string>
+
+    <!-- Search (additional) -->
+    <string name="search_by_name">Search by name</string>
+    <string name="search_by_species">Search by species</string>
+    <string name="search_by_district">Search by district</string>
+    <string name="search_no_results">No results found</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="search_popular">Popular searches</string>
+    <string name="search_clear_history">Clear history</string>
+    
+    <!-- Permissions -->
+    <string name="permission_location_title">Location Permission</string>
+    <string name="permission_location_message">Location is required for explore mode</string>
+    <string name="permission_camera_title">Camera Permission</string>
+    <string name="permission_camera_message">Camera is required for AR and photos</string>
+    <string name="permission_grant">Allow</string>
+    <string name="permission_deny">Deny</string>
+    
+    <!-- Errors -->
+    <string name="error_loading">Error loading</string>
+    <string name="error_network">Network error</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_try_again">Try again</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_location">Location unavailable</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+    <string name="search">Search</string>
+    <string name="no_results">No results</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="copy">Copy</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="continue_action">Continue</string>
+    <string name="meters">%1$d m</string>
+    <string name="kilometers">%1$.1f km</string>
+    <string name="years">%1$d years</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+</resources>
