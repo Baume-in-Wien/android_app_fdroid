@@ -1,0 +1,27 @@
+Bäume in Wien lets you explore and learn about Vienna's urban trees. The app pulls data from the city's open data portal and turns it into something you can actually walk around with.
+
+INTERACTIVE TREE MAP
+Displays around 200,000 trees from Vienna's open data with species-specific icons and clustering. Tap any tree to see its height, trunk circumference, year planted, and exact location.
+
+LEAF CLASSIFIER
+Point your camera at a leaf and an on-device ONNX model identifies the species. Covers 200+ tree species with confidence scoring. Works fully offline — no data sent anywhere.
+
+SOLO EXPLORER
+Pick a radius (500m to 5km), get a mission to find a specific tree, walk there, and snap a photo to complete it.
+
+MULTIPLAYER RALLIES
+Solo rallies, student rallies for classrooms, and teacher rallies with a live dashboard. Join via QR code, compete on real-time leaderboards, collect species, and build a digital herbarium.
+
+ACHIEVEMENTS
+24+ trophies for species discovery, exploration distance, rally wins, and community contributions.
+
+COMMUNITY
+Submit trees that aren't in the official data, upload photos, and go through a lightweight verification workflow.
+
+FAVORITES AND NOTES
+Save trees, write notes, attach photos from your gallery.
+
+STATISTICS
+Track trees discovered, unique species, distance walked, and rally performance over time.
+
+This is the F-Droid build. It is identical to the Play Store version except augmented reality is not included, as it depends on ARCore (a proprietary Google library). All other features are fully available. Location uses the standard Android LocationManager — no Google Play Services required.

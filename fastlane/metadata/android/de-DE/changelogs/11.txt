@@ -1,0 +1,1 @@
+Erste F-Droid-Veröffentlichung. Alle Funktionen außer Augmented Reality sind enthalten. Standort funktioniert ohne Google Play Services über den Standard-Android-Standortdienst.

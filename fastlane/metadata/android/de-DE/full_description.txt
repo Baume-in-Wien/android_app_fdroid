@@ -1,0 +1,27 @@
+Bäume in Wien lässt dich Wiens Stadtbäume erkunden und kennenlernen. Die App bezieht ihre Daten aus dem offenen Datenkatalog der Stadt Wien.
+
+INTERAKTIVE BAUMKARTE
+Rund 200.000 Bäume aus dem Wiener Baumkataster mit artspezifischen Icons und Clustering. Tippe auf einen Baum, um Höhe, Stammumfang, Pflanzjahr und genauen Standort zu sehen.
+
+BLATTSCAN
+Kamera auf ein Blatt richten — ein ONNX-Modell auf dem Gerät erkennt die Art. Über 200 Baumarten, mit Konfidenzwert. Funktioniert vollständig offline, ohne Datenübertragung.
+
+SOLO-ERKUNDUNG
+Radius wählen (500m bis 5km), Mission erhalten, zum Baum laufen, Foto schießen — fertig.
+
+MULTIPLAYER-RALLYS
+Solo-Rallys, Schüler-Rallys für den Unterricht und Lehrer-Rallys mit Live-Dashboard. Per QR-Code beitreten, auf Echtzeit-Ranglisten messen, Arten sammeln und ein digitales Herbarium anlegen.
+
+ERRUNGENSCHAFTEN
+Über 24 Trophäen für Artenentdeckung, Erkundungsdistanz, Rally-Siege und Community-Beiträge.
+
+COMMUNITY
+Bäume einreichen, die im offiziellen Kataster fehlen, Fotos hochladen und durch einen kurzen Prüfprozess schicken.
+
+FAVORITEN UND NOTIZEN
+Bäume speichern, Notizen schreiben, Fotos aus der Galerie anhängen.
+
+STATISTIKEN
+Entdeckte Bäume, einzigartige Arten, zurückgelegte Strecke und Rally-Leistung über die Zeit verfolgen.
+
+Dies ist die F-Droid-Version. Sie ist identisch mit der Play-Store-Version, mit dem einzigen Unterschied, dass die Augmented-Reality-Ansicht nicht enthalten ist, da sie ARCore (eine proprietäre Google-Bibliothek) benötigt. Alle anderen Funktionen sind vollständig verfügbar. Standort wird ohne Google Play Services über den Standard-Android-Standortdienst ermittelt.

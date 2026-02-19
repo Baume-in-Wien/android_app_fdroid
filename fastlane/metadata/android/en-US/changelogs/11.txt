@@ -1,0 +1,1 @@
+Initial F-Droid release. All features except augmented reality are included. Location works without Google Play Services using the standard Android LocationManager.
