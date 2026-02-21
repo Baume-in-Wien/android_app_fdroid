@@ -16,6 +16,8 @@ import paulify.baeumeinwien.ui.screens.favorites.FavoritesViewModel
 import paulify.baeumeinwien.ui.screens.info.InfoViewModel
 import paulify.baeumeinwien.ui.screens.map.MapViewModel
 import paulify.baeumeinwien.ui.screens.rally.CrossplayRallyViewModel
+import paulify.baeumeinwien.ui.screens.leafscanner.LeafScannerViewModel
+import paulify.baeumeinwien.util.LeafClassificationService
 
 class ViewModelFactory(
     private val context: Context,
@@ -67,6 +69,9 @@ class ViewModelFactory(
             }
             modelClass.isAssignableFrom(AddTreeViewModel::class.java) -> {
                 AddTreeViewModel(communityTreeRepository, authRepository) as T
+            }
+            modelClass.isAssignableFrom(LeafScannerViewModel::class.java) -> {
+                LeafScannerViewModel(LeafClassificationService(context)) as T
             }
             else -> throw IllegalArgumentException("Unknown ViewModel class: ${modelClass.name}")
         }

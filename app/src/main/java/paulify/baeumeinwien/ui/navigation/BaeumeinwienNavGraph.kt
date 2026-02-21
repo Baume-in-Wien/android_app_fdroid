@@ -24,6 +24,8 @@ import paulify.baeumeinwien.data.domain.AuthState
 import paulify.baeumeinwien.ui.screens.settings.SettingsScreen
 import paulify.baeumeinwien.ui.screens.statistics.StatisticsScreen
 import paulify.baeumeinwien.ui.screens.more.MoreScreen
+import paulify.baeumeinwien.ui.screens.leafscanner.LeafScannerScreen
+import paulify.baeumeinwien.ui.screens.leafscanner.LeafScannerViewModel
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 
@@ -253,6 +255,16 @@ fun BaeumeinwienNavGraph(
             )
         }
 
+
+        composable(Screen.LeafScanner.route) {
+            val viewModel: LeafScannerViewModel = viewModel(factory = viewModelFactory)
+            LeafScannerScreen(
+                viewModel = viewModel,
+                onSearchSpecies = { species ->
+                    navController.navigate(Screen.Map.route)
+                }
+            )
+        }
 
         composable(Screen.Login.route) {
             val authViewModel: AuthViewModel = viewModel(factory = viewModelFactory)

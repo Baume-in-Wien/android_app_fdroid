@@ -12,6 +12,7 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.BarChart
 import androidx.compose.material.icons.filled.AddLocationAlt
 import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.Eco
 import androidx.compose.ui.graphics.vector.ImageVector
 import paulify.baeumeinwien.R
 
@@ -88,6 +89,12 @@ sealed class Screen(
         titleResId = R.string.nav_map,
         icon = Icons.Default.AddLocationAlt
     )
+
+    data object LeafScanner : Screen(
+        route = "leaf_scanner",
+        titleResId = R.string.nav_leaf_scanner,
+        icon = Icons.Default.Eco
+    )
 }
 
 val bottomNavItems = listOf(
@@ -99,6 +106,7 @@ val bottomNavItems = listOf(
 )
 
 val moreMenuItems = listOf(
+    Screen.LeafScanner,
     Screen.Favorites,
     Screen.Achievements,
     Screen.Statistics,
