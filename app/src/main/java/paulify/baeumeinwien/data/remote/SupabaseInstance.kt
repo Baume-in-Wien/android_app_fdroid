@@ -14,8 +14,8 @@ import kotlinx.serialization.json.put
 object SupabaseInstance {
     val client by lazy {
         createSupabaseClient(
-            supabaseUrl = "https://awkwclebcnzgvpnmypwd.supabase.co",
-            supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF3a3djbGViY256Z3Zwbm15cHdkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcxNTU2ODgsImV4cCI6MjA4MjczMTY4OH0.z29RXjO5wZxt0BKZsZINs_9bnpF25439fUbN3U3A-qc"
+            supabaseUrl = "https://login.treesinvienna.eu",
+            supabaseKey = "7v40sIFSOAC7sYM53SBjhysrzlYmNwD45bV44I"
         ) {
             httpEngine = OkHttp.create()
             install(Auth) {
